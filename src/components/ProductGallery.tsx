@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 
 interface Product {
@@ -16,8 +15,7 @@ const products: Product[] = [
   { id: 5, image: "/lovable-uploads/a7abc8f8-30b7-4cef-af3e-884accaf099a.png", title: "Tapete verde", category: "hogar" },
   { id: 6, image: "/lovable-uploads/7aa4f0c7-6dd1-48ae-916d-6fff2b3d3008.png", title: "Centro de mesa", category: "hogar" },
   { id: 7, image: "/lovable-uploads/931050ec-6002-416e-a4ee-226263fc26f3.png", title: "Bases para tazas", category: "hogar" },
-  { id: 8, image: "/lovable-uploads/d8fb4da0-5536-4f17-bd12-ee0544667048.png", title: "Portavasos artesanales", category: "hogar" },
-  { id: 9, image: "/lovable-uploads/e8fbb699-d264-45dc-b4c8-b03f4eb038ad.png", title: "Mandala decorativo", category: "hogar" }
+  { id: 8, image: "/lovable-uploads/d8fb4da0-5536-4f17-bd12-ee0544667048.png", title: "Portavasos artesanales", category: "hogar" }
 ];
 
 const ProductGallery = () => {
