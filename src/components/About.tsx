@@ -17,7 +17,7 @@ const About = () => {
               <p>
                 CAMIPAU nace en marzo del 2017, pero su origen se remonta al colegio, donde 
                 Adriana descubrió su pasión por las manualidades. Inspirada por su abuela, 
-                madre y tía —todas tejedoras—, Adriana transformó ese gusto heredado en una 
+                madre y tía, todas tejedoras, Adriana transformó ese gusto heredado en una 
                 marca que honra lo hecho a mano y lo transforma en diseño contemporáneo.
               </p>
               

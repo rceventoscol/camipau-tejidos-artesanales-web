@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 
 interface Product {
@@ -15,7 +16,11 @@ const products: Product[] = [
   { id: 5, image: "/lovable-uploads/a7abc8f8-30b7-4cef-af3e-884accaf099a.png", title: "Tapete verde", category: "hogar" },
   { id: 6, image: "/lovable-uploads/7aa4f0c7-6dd1-48ae-916d-6fff2b3d3008.png", title: "Centro de mesa", category: "hogar" },
   { id: 7, image: "/lovable-uploads/931050ec-6002-416e-a4ee-226263fc26f3.png", title: "Bases para tazas", category: "hogar" },
-  { id: 8, image: "/lovable-uploads/d8fb4da0-5536-4f17-bd12-ee0544667048.png", title: "Portavasos artesanales", category: "hogar" }
+  { id: 8, image: "/lovable-uploads/d8fb4da0-5536-4f17-bd12-ee0544667048.png", title: "Portavasos artesanales", category: "hogar" },
+  { id: 9, image: "/lovable-uploads/06ed09d3-2ecc-463e-922e-dac30f9c4980.png", title: "Accesorio decorativo tejido", category: "moda" },
+  { id: 10, image: "/lovable-uploads/9c4757de-bf33-41a2-9e7d-3215988ed93a.png", title: "Conjunto tejido morado", category: "moda" },
+  { id: 11, image: "/lovable-uploads/d6bf3460-bc75-422d-91b3-af0c2d92bb1e.png", title: "Vestido tejido morado", category: "moda" },
+  { id: 12, image: "/lovable-uploads/7829083c-335a-46b6-a0c4-2b76ffbc33be.png", title: "Top tejido con mangas", category: "moda" }
 ];
 
 const ProductGallery = () => {
